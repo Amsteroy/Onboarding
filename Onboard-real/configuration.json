@@ -1,0 +1,55 @@
+{
+  "programs": [
+    {
+      "Name": "7ZIP",
+      "Division": "Everyone",
+      "Urlx32": "https://www.7-zip.org/a/7z1900.msi",
+      "Urlx64": "https://www.7-zip.org/a/7z1900-x64.msi",
+      "Command_For_Installation":"msiexec /i \"{}\" /passive"
+    },
+    {
+      "Name": "ZOOM",
+      "Division": "Everyone",
+      "Url": "https://zoom.us/client/latest/ZoomInstallerFull.msi",
+      "Command_For_Installation":"msiexec /i \"{}\" /passive"
+    },
+    {
+      "Name": "Drive File Stream",
+      "Division": "Everyone",
+      "Url": "https://dl.google.com/drive-file-stream/GoogleDriveFSSetup.exe",
+      "Command_For_Installation":"\"{}\" --silent --desktop_shortcut --gsuite_shortcuts=false"
+    },
+
+    {
+      "Name": "Notepad++",
+      "Division": "Everyone",
+      "Urlx32": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.1/npp.7.9.1.Installer.exe",
+      "Urlx64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.1/npp.7.9.1.Installer.x64.exe",
+      "Command_For_Installation":"\"{}\" /S"
+    },
+    {
+      "Name": "Slack",
+      "Division": "Everyone",
+      "Url": "https://slack.com/intl/en-il/downloads/windows",
+      "Attribute": "XPATH",
+      "Attribute_Valuex32": "//button[text()='Download (32-bit)']",
+      "Attribute_Valuex64": "//button[text()='Download (64-bit)']",
+      "Command_For_Installation":"{}"
+
+    },
+    {
+      "Name": "Zoho Assist Agent",
+      "Division": "Everyone",
+      "Url": "https://assist.zoho.com/unattended?encapiKey=wSsVRa0i%2BhWlCKt%2FlD2oLuhrkFpcDlP0R0Qr2lenuXP%2FS6%2FB98dtxE2aAVegHadJEjI%2FEGYbor19yU9SgWEI2Y8uyg4BCyiF9mqRe1U4J3x1pLPvkj7KW21dkxOILIoMwgxskg%3D%3D",
+      "Attribute": "CLASS_NAME",
+      "Attribute_Value": "download-btn",
+      "Command_For_Installation":"{}"
+    },
+    {
+      "Name": "FortiClient",
+      "Division": "Everyone",
+      "Url":"https://filestore.fortinet.com/forticlient/downloads/FortiClientVPNOnlineInstaller_6.4.exe",
+      "Command_For_Installation":"{}"
+    }
+  ]
+}

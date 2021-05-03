@@ -1,0 +1,18 @@
+{
+  "programs": [
+    {
+
+      "Name": "Notepad++",
+      "Division": "Everyone",
+      "Urlx32": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.1/npp.7.9.1.Installer.exe",
+      "Urlx64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.1/npp.7.9.1.Installer.x64.exe",
+      "Command_For_Installation":"\"{}\" /S"
+
+    },
+    {
+      "Name": "ZOOM",
+      "Division": "Everyone",
+      "Url": "https://zoom.us/client/latest/ZoomInstallerFull.msi",
+      "Command_For_Installation":"msiexec /i \"{}\" /passive"
+    }]
+}
