@@ -1,0 +1,5 @@
+sudo dpkg -i <file>
+..
+sudo /opt/sentinelone/bin/sentinelctl management token set <token>
+..
+sudo /opt/sentinelone/bin/sentinelctl control start
