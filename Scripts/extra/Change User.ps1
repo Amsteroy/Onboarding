@@ -1,4 +1,11 @@
-﻿Function Get-Information {
+﻿if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))  
+{  
+  Write-Host "Please run again as administrator"
+  Start-Sleep -s 5
+  exit
+}
+
+Function Get-Information {
     Add-Type -AssemblyName Microsoft.VisualBasic
     [hashtable]$return = @{}
 
@@ -19,6 +26,7 @@
             'Yes' {
             [pscredential]$cred = New-Object System.Management.Automation.PSCredential ($Username, $Password)
             $return.cred = $cred
+            $return.pc_name = $PCName
             $return.department = $Department
 
             return $return
@@ -31,8 +39,9 @@
    }
 
 Function Change-User ($Username, $Password) {
-$UserAccount = Get-LocalUser -Name "Temp"
-$UserAccount | Set-LocalUser -Name $Username -Password $Password
+Remove-LocalUser -Name "Temp"
+New-LocalUser $Username -Password $Password -FullName $Username
+Add-LocalGroupMember -Group "Users" -Member $Username
 
 }
 
@@ -52,5 +61,5 @@ Function End-Script{
 
    $Details = Get-Information
     
-   Rename-Computer -NewName $Details.pc_name
-   Change-User -Name $Details.cred.UserName -Password $Details.cred.Password
+   Rename-Computer -NewName $Details.pc_name.ToUpper()
+   Change-User $Details.cred.UserName $Details.cred.Password
