@@ -14,6 +14,12 @@
       "Command_For_Installation":"msiexec /i \"{}\" /passive"
     },
     {
+      "Name": "Adobe Reader",
+      "Division": "Everyone",
+      "Url": "https://get.adobe.com/uk/reader/download/?installer=Reader_DC_2021.005.20048_English_UK_for_Windows&os=Windows%2010&browser_type=KHTML&browser_dist=Chrome&dualoffer=false&mdualoffer=true&cr=false&stype=7607&d=McAfee_Security_Scan_Plus&d=McAfee_Safe_Connect",
+      "Command_For_Installation":"{}"
+    },
+    {
       "Name": "Drive File Stream",
       "Division": "Everyone",
       "Url": "https://dl.google.com/drive-file-stream/GoogleDriveFSSetup.exe",
@@ -37,18 +43,11 @@
       "Command_For_Installation":"{}"
 
     },
-    {
-      "Name": "Zoho Assist Agent",
-      "Division": "Everyone",
-      "Url": "https://assist.zoho.com/unattended?encapiKey=wSsVRa0i%2BhWlCKt%2FlD2oLuhrkFpcDlP0R0Qr2lenuXP%2FS6%2FB98dtxE2aAVegHadJEjI%2FEGYbor19yU9SgWEI2Y8uyg4BCyiF9mqRe1U4J3x1pLPvkj7KW21dkxOILIoMwgxskg%3D%3D",
-      "Attribute": "CLASS_NAME",
-      "Attribute_Value": "download-btn",
-      "Command_For_Installation":"{}"
-    },
+
     {
       "Name": "FortiClient",
       "Division": "Everyone",
-      "Url":"https://filestore.fortinet.com/forticlient/downloads/FortiClientVPNOnlineInstaller_6.4.exe",
+      "Url":"https://links.fortinet.com/forticlient/win/vpnagent",
       "Command_For_Installation":"{}"
     }
   ]

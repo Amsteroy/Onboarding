@@ -1,6 +1,5 @@
-(['C:\\Users\\Roy Amster\\PycharmProjects\\Onboard-real\\main.py'],
- ['C:\\Users\\Roy Amster\\PycharmProjects\\Onboard-real',
-  'C:\\Users\\Roy Amster\\PycharmProjects\\Onboard-real'],
+(['D:\\Onboarding\\Onboard-real\\main.py'],
+ ['D:\\Onboarding\\Onboard-real', 'D:\\Onboarding\\Onboard-real'],
  ['codecs'],
  ['c:\\users\\roy '
   'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
@@ -16,15 +15,14 @@
  [],
  False,
  False,
+ False,
  '3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit '
  '(AMD64)]',
  [('pyi_rth_multiprocessing',
    'C:\\Users\\Roy '
    'Amster\\PycharmProjects\\Onboard-real\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
-  ('main',
-   'C:\\Users\\Roy Amster\\PycharmProjects\\Onboard-real\\main.py',
-   'PYSOURCE')],
+  ('main', 'D:\\Onboarding\\Onboard-real\\main.py', 'PYSOURCE')],
  [('multiprocessing.popen_spawn_posix',
    'C:\\Users\\Roy '
    'Amster\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\popen_spawn_posix.py',
@@ -934,18 +932,14 @@
    'Amster\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('OnlineDownloads.downloads',
-   'C:\\Users\\Roy '
-   'Amster\\PycharmProjects\\Onboard-real\\OnlineDownloads\\downloads.py',
+   'D:\\Onboarding\\Onboard-real\\OnlineDownloads\\downloads.py',
    'PYMODULE'),
   ('OnlineDownloads', '-', 'PYMODULE'),
   ('Installations.install',
-   'C:\\Users\\Roy '
-   'Amster\\PycharmProjects\\Onboard-real\\Installations\\install.py',
+   'D:\\Onboarding\\Onboard-real\\Installations\\install.py',
    'PYMODULE'),
   ('Installations', '-', 'PYMODULE'),
-  ('elements',
-   'C:\\Users\\Roy Amster\\PycharmProjects\\Onboard-real\\elements.py',
-   'PYMODULE'),
+  ('elements', 'D:\\Onboarding\\Onboard-real\\elements.py', 'PYMODULE'),
   ('selenium.webdriver.common.by',
    'c:\\users\\roy '
    'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\by.py',
@@ -975,12 +969,10 @@
    'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\common\\__init__.py',
    'PYMODULE'),
   ('OnlineDownloads.functions',
-   'C:\\Users\\Roy '
-   'Amster\\PycharmProjects\\Onboard-real\\OnlineDownloads\\functions.py',
+   'D:\\Onboarding\\Onboard-real\\OnlineDownloads\\functions.py',
    'PYMODULE'),
   ('OnlineDownloads.directorylistener',
-   'C:\\Users\\Roy '
-   'Amster\\PycharmProjects\\Onboard-real\\OnlineDownloads\\directorylistener.py',
+   'D:\\Onboarding\\Onboard-real\\OnlineDownloads\\directorylistener.py',
    'PYMODULE'),
   ('watchdog.events',
    'c:\\users\\roy '
@@ -1618,13 +1610,13 @@
    'C:\\Users\\Roy '
    'Amster\\AppData\\Local\\Programs\\Python\\Python39\\python39.dll',
    'BINARY'),
-  ('libssl-1_1.dll',
-   'C:\\Users\\Roy '
-   'Amster\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libssl-1_1.dll',
-   'BINARY'),
   ('libcrypto-1_1.dll',
    'C:\\Users\\Roy '
    'Amster\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Users\\Roy '
+   'Amster\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libssl-1_1.dll',
    'BINARY'),
   ('libffi-7.dll',
    'C:\\Users\\Roy '
@@ -1633,35 +1625,30 @@
  [],
  [],
  [('base_library.zip',
-   'C:\\Users\\Roy '
-   'Amster\\PycharmProjects\\Onboard-real\\build\\main\\base_library.zip',
-   'DATA'),
-  ('selenium\\webdriver\\firefox\\amd64\\x_ignore_nofocus.so',
-   'c:\\users\\roy '
-   'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\amd64\\x_ignore_nofocus.so',
-   'DATA'),
-  ('selenium\\webdriver\\remote\\isDisplayed.js',
-   'c:\\users\\roy '
-   'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\isDisplayed.js',
+   'D:\\Onboarding\\Onboard-real\\build\\main\\base_library.zip',
    'DATA'),
   ('selenium\\webdriver\\remote\\getAttribute.js',
    'c:\\users\\roy '
    'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\getAttribute.js',
    'DATA'),
+  ('selenium\\webdriver\\firefox\\amd64\\x_ignore_nofocus.so',
+   'c:\\users\\roy '
+   'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\amd64\\x_ignore_nofocus.so',
+   'DATA'),
   ('selenium\\webdriver\\firefox\\webdriver_prefs.json',
    'c:\\users\\roy '
    'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver_prefs.json',
    'DATA'),
-  ('Include\\pyconfig.h',
-   'C:\\Users\\Roy '
-   'Amster\\AppData\\Local\\Programs\\Python\\Python39\\Include\\pyconfig.h',
+  ('selenium\\webdriver\\firefox\\webdriver.xpi',
+   'c:\\users\\roy '
+   'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.xpi',
    'DATA'),
   ('selenium\\webdriver\\firefox\\x86\\x_ignore_nofocus.so',
    'c:\\users\\roy '
    'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\x86\\x_ignore_nofocus.so',
    'DATA'),
-  ('selenium\\webdriver\\firefox\\webdriver.xpi',
+  ('selenium\\webdriver\\remote\\isDisplayed.js',
    'c:\\users\\roy '
-   'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.xpi',
+   'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\isDisplayed.js',
    'DATA')],
  [])

@@ -1,5 +1,4 @@
-('C:\\Users\\Roy '
- 'Amster\\PycharmProjects\\Onboard-real\\build\\main\\PYZ-00.pyz',
+('D:\\Onboarding\\Onboard-real\\build\\main\\PYZ-00.pyz',
  [('multiprocessing.popen_spawn_posix',
    'C:\\Users\\Roy '
    'Amster\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\popen_spawn_posix.py',
@@ -909,18 +908,14 @@
    'Amster\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('OnlineDownloads.downloads',
-   'C:\\Users\\Roy '
-   'Amster\\PycharmProjects\\Onboard-real\\OnlineDownloads\\downloads.py',
+   'D:\\Onboarding\\Onboard-real\\OnlineDownloads\\downloads.py',
    'PYMODULE'),
   ('OnlineDownloads', '-', 'PYMODULE'),
   ('Installations.install',
-   'C:\\Users\\Roy '
-   'Amster\\PycharmProjects\\Onboard-real\\Installations\\install.py',
+   'D:\\Onboarding\\Onboard-real\\Installations\\install.py',
    'PYMODULE'),
   ('Installations', '-', 'PYMODULE'),
-  ('elements',
-   'C:\\Users\\Roy Amster\\PycharmProjects\\Onboard-real\\elements.py',
-   'PYMODULE'),
+  ('elements', 'D:\\Onboarding\\Onboard-real\\elements.py', 'PYMODULE'),
   ('selenium.webdriver.common.by',
    'c:\\users\\roy '
    'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\by.py',
@@ -950,12 +945,10 @@
    'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\common\\__init__.py',
    'PYMODULE'),
   ('OnlineDownloads.functions',
-   'C:\\Users\\Roy '
-   'Amster\\PycharmProjects\\Onboard-real\\OnlineDownloads\\functions.py',
+   'D:\\Onboarding\\Onboard-real\\OnlineDownloads\\functions.py',
    'PYMODULE'),
   ('OnlineDownloads.directorylistener',
-   'C:\\Users\\Roy '
-   'Amster\\PycharmProjects\\Onboard-real\\OnlineDownloads\\directorylistener.py',
+   'D:\\Onboarding\\Onboard-real\\OnlineDownloads\\directorylistener.py',
    'PYMODULE'),
   ('watchdog.events',
    'c:\\users\\roy '

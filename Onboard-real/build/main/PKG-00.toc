@@ -1,5 +1,4 @@
-('C:\\Users\\Roy '
- 'Amster\\PycharmProjects\\Onboard-real\\build\\main\\PKG-00.pkg',
+('D:\\Onboarding\\Onboard-real\\build\\main\\PKG-00.pkg',
  {'BINARY': 1,
   'DATA': 1,
   'EXECUTABLE': 1,
@@ -8,8 +7,7 @@
   'PYSOURCE': 1,
   'PYZ': 0},
  [('PYZ-00.pyz',
-   'C:\\Users\\Roy '
-   'Amster\\PycharmProjects\\Onboard-real\\build\\main\\PYZ-00.pyz',
+   'D:\\Onboarding\\Onboard-real\\build\\main\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
    'C:\\Users\\Roy '
@@ -35,9 +33,7 @@
    'C:\\Users\\Roy '
    'Amster\\PycharmProjects\\Onboard-real\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
-  ('main',
-   'C:\\Users\\Roy Amster\\PycharmProjects\\Onboard-real\\main.py',
-   'PYSOURCE'),
+  ('main', 'D:\\Onboarding\\Onboard-real\\main.py', 'PYSOURCE'),
   ('_multiprocessing',
    'C:\\Users\\Roy '
    'Amster\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_multiprocessing.pyd',
@@ -106,53 +102,47 @@
    'C:\\Users\\Roy '
    'Amster\\AppData\\Local\\Programs\\Python\\Python39\\python39.dll',
    'BINARY'),
-  ('libssl-1_1.dll',
-   'C:\\Users\\Roy '
-   'Amster\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libssl-1_1.dll',
-   'BINARY'),
   ('libcrypto-1_1.dll',
    'C:\\Users\\Roy '
    'Amster\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Users\\Roy '
+   'Amster\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libssl-1_1.dll',
    'BINARY'),
   ('libffi-7.dll',
    'C:\\Users\\Roy '
    'Amster\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libffi-7.dll',
    'BINARY'),
   ('base_library.zip',
-   'C:\\Users\\Roy '
-   'Amster\\PycharmProjects\\Onboard-real\\build\\main\\base_library.zip',
-   'DATA'),
-  ('selenium\\webdriver\\firefox\\amd64\\x_ignore_nofocus.so',
-   'c:\\users\\roy '
-   'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\amd64\\x_ignore_nofocus.so',
-   'DATA'),
-  ('selenium\\webdriver\\remote\\isDisplayed.js',
-   'c:\\users\\roy '
-   'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\isDisplayed.js',
+   'D:\\Onboarding\\Onboard-real\\build\\main\\base_library.zip',
    'DATA'),
   ('selenium\\webdriver\\remote\\getAttribute.js',
    'c:\\users\\roy '
    'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\getAttribute.js',
    'DATA'),
+  ('selenium\\webdriver\\firefox\\amd64\\x_ignore_nofocus.so',
+   'c:\\users\\roy '
+   'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\amd64\\x_ignore_nofocus.so',
+   'DATA'),
   ('selenium\\webdriver\\firefox\\webdriver_prefs.json',
    'c:\\users\\roy '
    'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver_prefs.json',
-   'DATA'),
-  ('Include\\pyconfig.h',
-   'C:\\Users\\Roy '
-   'Amster\\AppData\\Local\\Programs\\Python\\Python39\\Include\\pyconfig.h',
-   'DATA'),
-  ('selenium\\webdriver\\firefox\\x86\\x_ignore_nofocus.so',
-   'c:\\users\\roy '
-   'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\x86\\x_ignore_nofocus.so',
    'DATA'),
   ('selenium\\webdriver\\firefox\\webdriver.xpi',
    'c:\\users\\roy '
    'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.xpi',
    'DATA'),
+  ('selenium\\webdriver\\firefox\\x86\\x_ignore_nofocus.so',
+   'c:\\users\\roy '
+   'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\x86\\x_ignore_nofocus.so',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\isDisplayed.js',
+   'c:\\users\\roy '
+   'amster\\pycharmprojects\\onboard-real\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\isDisplayed.js',
+   'DATA'),
   ('main.exe.manifest',
-   'C:\\Users\\Roy '
-   'Amster\\PycharmProjects\\Onboard-real\\build\\main\\main.exe.manifest',
+   'D:\\Onboarding\\Onboard-real\\build\\main\\main.exe.manifest',
    'BINARY'),
   ('pyi-windows-manifest-filename main.exe.manifest', '', 'OPTION')],
  False,

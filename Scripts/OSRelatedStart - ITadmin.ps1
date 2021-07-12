@@ -40,15 +40,13 @@ Function Get-Information {
 
     while($true)
     {
-        $PCName = [Microsoft.VisualBasic.Interaction]::InputBox("What is the desired computer name")
         $Username = [Microsoft.VisualBasic.Interaction]::InputBox("What is the employee name?")
         $Department = [Microsoft.VisualBasic.Interaction]::InputBox("Which department will the employee work in?")
         $Password = Read-Host -AsSecureString "Please enter a temporary password for the employee user account"
 
         [string] $Message = 'Are these are the correct details of the new employee ?',"`t","`t","`t","`n","`n",
-        'Computer Name:',"`t","`t","`t",'{0}',"`n",
-        'Computer User Name:',"`t","`t",'{1}',"`n",
-        'Employees Department:',"`t","`t",'{2}'-f $PCName,$Username,$Department
+        'Computer User Name:',"`t","`t",'{0}',"`n",
+        'Employees Department:',"`t","`t",'{1}'-f $Username,$Department
 
         $Answer = [System.Windows.Forms.MessageBox]::Show($Message,'Details Verification','YesNoCancel','Information')
         Write-Host $Answer
@@ -57,7 +55,6 @@ Function Get-Information {
             'Yes' {
             [pscredential]$cred = New-Object System.Management.Automation.PSCredential ($Username, $Password)
             $return.cred = $cred
-            $return.pc_name = $PCName
             $return.department = $Department
 
             return $return
@@ -82,7 +79,6 @@ Function Download-Chrome{
 # All the user input needed
 $Details = Get-Information 
 
-Rename-Computer -NewName $Details.pc_name
 
 Change-ScreenTimeout
 
